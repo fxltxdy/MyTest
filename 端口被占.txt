@@ -1,0 +1,14 @@
+netstat -aon|findstr 1099
+taskkill -f -pid 5916
+
+
+
+
+tar -zxvf                 解压
+source /etc/profile       立即执行此设置
+
+export JAVA_HOME=/usr/jdk1.8.0_121
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+
+
